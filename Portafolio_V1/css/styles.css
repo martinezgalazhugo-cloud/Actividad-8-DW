@@ -150,3 +150,136 @@ main #section-about .text .bold {
     text-decoration: underline;
 }
 
+/* seccion de trabajo */
+
+main #section-jobs {
+    background: #f2f2f2;
+    padding: 60px 0;
+} 
+
+main #section-jobs .container{
+    overflow: hidden;
+}
+
+main #section-jobs .title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    color: #3895ea;
+    text-align: center;
+}
+
+main #section-jobs .container-jobs{
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main #section-jobs .container-jobs .job{
+    width: 23%;
+    padding: 0px 0px 15px 0px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s;
+}
+
+main #section-jobs .container-jobs .job .img-job{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+main #section-jobs .container-jobs .job .img-job img{
+    vertical-align: top;
+    width: 100%;
+}
+
+main #section-jobs .container-jobs .job:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+main #section-jobs .container-jobs .job .description{
+    text-align: center;
+}
+
+main #section-jobs .container-jobs .job .description .name{
+    font-weight: 700;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+
+main #section-jobs .container-jobs .job .description .category {
+    font-size: 14px;
+    color: #636363;
+}
+
+/* Seccion de habilidades */
+
+main #section-skill {
+    padding: 60px 0;
+    margin-bottom: 20px;
+}
+
+main #section-skills .container{
+    overflow: hidden;
+}
+
+main #section-skills .title{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    color: #dd820d;
+    text-align: center;
+}
+
+main #section-skills .container-skills {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main #section-skills .container-skills .skill {
+    margin: clamp(5px, 5px, 10px);
+    display: flex;
+    align-items: justify-content;
+    width: 23%;
+}
+
+main #section-skills .container-skills .skill .icon-skill {
+    padding: 0px 5px;
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main #section-skills .container-skills .skill .icon-skill i {
+    width: 100%;
+    font-size: 40px;
+    transition: all 0.75s;
+}
+
+main #section-skills .container-skills .skill .icon-skill i:hover{
+    transform: rotate(360deg);
+}
+
+main #section-skills .container-skills .skill .description {
+    align-items: right;
+    width: 100%;
+}
+
+main #section-skills .container-skills .skill .description .name {
+    font-weight: 700;
+    color: #3895ea;
+}
+
+main #section-skills .container-skills .skill .description .category {
+    font-size: 14px;
+    color: #636363;
+}
+
