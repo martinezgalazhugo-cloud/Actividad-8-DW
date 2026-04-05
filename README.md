@@ -1,2 +1,2 @@
 # Actividad-8-DW
-Actividad de diseño web 8, 9 y 11, actividad del Portafolio.
+Actividad de diseño web 8, 9, 11 y 12, actividad del Portafolio.
