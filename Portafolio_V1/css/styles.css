@@ -1,6 +1,9 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 header{
@@ -281,5 +284,113 @@ main #section-skills .container-skills .skill .description .name {
 main #section-skills .container-skills .skill .description .category {
     font-size: 14px;
     color: #636363;
+}
+
+/* FOOTER */
+
+footer {
+    background: #f2f2f2;
+    color: #fff;
+    padding: 0px 0px;
+}
+
+footer #section-contact{
+    padding: 60px 0px;
+}
+
+footer #section-contact .title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    color: #3895ea;
+    text-align: center;
+}
+
+footer #section-contact .form-message {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer #section-contact .form-message input[type="text"],
+footer #section-contact .form-message input[type="email"],
+footer #section-contact .form-message textarea {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+
+footer #section-contact .form-message input[type="text"],
+footer #section-contact .form-message input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer #section-contact .form-message textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    margin-bottom: 15px;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+footer #section-contact .form-message .btn-send-msg {
+    margin: auto;
+    background: #3895ea;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+}
+
+footer #section-contact .form-message .btn-send-msg:hover{
+    background: #387bea;
+}
+
+/* REDES SOCIALES */
+
+footer #section-socialMedia {
+    background-image: linear-gradient(#1e2838 50%, #3c5171 90%);
+    padding: 60px 0;
+}
+
+footer #section-socialMedia .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer #section-socialMedia .container a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    font-size: 30px;
+    padding: 15px 0;
+    display: block;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+footer #section-socialMedia .container .twitter:hover {
+    background: #55acee;
+}
+
+footer #section-socialMedia .container .facebook:hover {
+    background: #3b5998;
+}
+
+footer #section-socialMedia .container .youtube:hover {
+    background: #cd201f;
+}
+
+footer #section-socialMedia .container .github:hover {
+    background: #666666;
+}
+
+footer #section-socialMedia .container .instagram:hover {
+    background: #3f729b;
 }
 
